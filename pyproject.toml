@@ -5,7 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.116.1",
+    "fastapi[standard]>=0.116.1",
     "loguru>=0.7.3",
+    "memobase>=0.0.23",
     "supabase>=2.17.0",
+    "pytz>=2024.1",
+    "python-dotenv>=1.1.1",
+    "a2a-sdk>=0.2.16",
+    "google-genai>=1.27.0",
+    "google-adk[a2a]>=1.8.0",
+    "litellm>=1.74.8",
+    "httpx>=0.28.1",
+    "httpx-sse>=0.4.1",
+    "asyncfile>=1.0.0",
+    "jinja2>=3.1.6",
+    "asyncpg>=0.30.0",
 ]
